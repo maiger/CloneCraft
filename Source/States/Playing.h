@@ -3,6 +3,8 @@
 
 #include "Game_State.h"
 
+#include "../Model.h"
+
 class Application;
 
 namespace State
@@ -15,6 +17,9 @@ namespace State
             void input  () override;
             void update () override;
             void draw   () override;
+
+        private:
+            Model m_model;
     };
 }
 

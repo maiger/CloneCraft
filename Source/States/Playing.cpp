@@ -1,11 +1,15 @@
 #include "Playing.h"
 
-#include <iostream>
-
 namespace State
 {
     Playing::Playing(Application& application)
-    : Game_State(application)
+    : Game_State    (application)
+    , m_model       ({0.5, 0.5,
+                    -0.5, 0.5,
+                    -0.5, -0.5,
+                    -0.5, -0.5,
+                    0.5, -0.5,
+                    0.5, 0.5})
     {
 
     }
@@ -22,6 +26,10 @@ namespace State
 
     void Playing::draw()
     {
-        std::cout << "Drawing" << std::endl;
+        m_model.bind();
+
+        glDrawArrays(GL_TRIANGLES, 0, 6);
+
+        m_model.unbind();
     }
 }
