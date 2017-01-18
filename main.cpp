@@ -1,38 +1,14 @@
-#include <iostream>
-#include <GL/glew.h>
-#include <glm/glm.hpp>
-#include <glm/gtc/matrix_transform.hpp>
-#include <glm/gtc/type_ptr.hpp>
-#include <SFML/Graphics.hpp>
+#include "Source/Display.h"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800, 600), "It Works!");
+    Display::init();
 
-    //Irrelevent stuff to test if opengl stuff compiles
-    glewInit();
-    GLuint test;
-    glGenVertexArrays(1, &test);
-
-    //Test if SFML works and compiles
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
-
-    while (window.isOpen())
+    while(Display::isOpen())
     {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
+        Display::clear();
+        Display::update();
 
-        window.clear();
-        window.draw(shape);
-        window.display();
+        Display::checkForClose();
     }
-
-    glm::mat4 mat = glm::translate(mat, {1,1,1,});  //Test if GLM compiles
-
-    return 0;
 }
