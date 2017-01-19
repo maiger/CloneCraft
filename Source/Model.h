@@ -15,7 +15,12 @@ class Model
         void unbind();
 
     private:
-        GLuint m_vertexId;
+        void addVBO(int dim, const std::vector<GLfloat>& data);
+
+        std::vector<GLuint> m_buffers;
+        GLuint m_vao = 0;
+
+        GLuint m_vboCount = 0;
 };
 
 #endif // MODEL_H_INCLUDED
