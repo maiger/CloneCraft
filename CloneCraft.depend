@@ -410,14 +410,15 @@
 
 1484751290 c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.h
 
-1484756050 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
+1484919668 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
 	"Game_State.h"
 	"../Model.h"
+	"../Shaders/Simple_Shader.h"
 
 1484751445 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1484756444 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
+1484919704 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
 	"Playing.h"
 
 1484751873 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
@@ -431,10 +432,11 @@
 1484846111 source:c:\users\markus\documents\dev\cpp\clonecraft\source\model.cpp
 	"Model.h"
 
-1484915477 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.cpp
+1484919171 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.cpp
 	"Shader_Program.h"
+	"Shader_Loader.h"
 
-1484915331 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.h
+1484919113 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.h
 	<GL/glew.h>
 	<string>
 
@@ -447,4 +449,10 @@
 1484915604 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_loader.h
 	<GL/glew.h>
 	<string>
+
+1484919039 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.h
+	"Shader_Program.h"
+
+1484919228 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.cpp
+	"Simple_Shader.h"
 
