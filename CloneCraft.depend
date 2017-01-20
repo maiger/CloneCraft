@@ -428,3 +428,23 @@
 	<GL/glew.h>
 	<vector>
 
+1484846111 source:c:\users\markus\documents\dev\cpp\clonecraft\source\model.cpp
+	"Model.h"
+
+1484915477 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.cpp
+	"Shader_Program.h"
+
+1484915331 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.h
+	<GL/glew.h>
+	<string>
+
+1484917189 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_loader.cpp
+	"Shader_Loader.h"
+	<fstream>
+	<sstream>
+	<stdexcept>
+
+1484915604 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_loader.h
+	<GL/glew.h>
+	<string>
+
