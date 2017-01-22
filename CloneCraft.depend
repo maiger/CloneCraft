@@ -410,26 +410,28 @@
 
 1484751290 c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.h
 
-1484919668 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
+1485095937 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
 	"Game_State.h"
 	"../Model.h"
 	"../Shaders/Simple_Shader.h"
+	"../Texture/Texture.h"
 
 1484751445 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1484919704 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
+1485096538 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
 	"Playing.h"
+	<iostream>
 
 1484751873 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
 	"Display.h"
 	"Application.h"
 
-1484846011 c:\users\markus\documents\dev\cpp\clonecraft\source\model.h
+1485095570 c:\users\markus\documents\dev\cpp\clonecraft\source\model.h
 	<GL/glew.h>
 	<vector>
 
-1484846111 source:c:\users\markus\documents\dev\cpp\clonecraft\source\model.cpp
+1485095630 source:c:\users\markus\documents\dev\cpp\clonecraft\source\model.cpp
 	"Model.h"
 
 1484919171 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.cpp
@@ -455,4 +457,12 @@
 
 1484919228 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.cpp
 	"Simple_Shader.h"
+
+1485095269 c:\users\markus\documents\dev\cpp\clonecraft\source\texture\texture.h
+	<GL/glew.h>
+	<string>
+
+1485095734 source:c:\users\markus\documents\dev\cpp\clonecraft\source\texture\texture.cpp
+	"Texture.h"
+	<SFML/Graphics.hpp>
 
