@@ -30,6 +30,11 @@ namespace Shader
         glUniform1f(location, value);
     }
 
+    void Shader_Program::loadVector2(GLuint location, const Vector2& vector)
+    {
+        glUniform2f(location, vector.x, vector.y);
+    }
+
     GLuint Shader_Program::getID() const
     {
         return m_programID;

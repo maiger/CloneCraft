@@ -411,18 +411,21 @@
 
 1485338323 c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.h
 
-1485338247 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
+1485350730 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
 	"Game_State.h"
 	"../Model.h"
 	"../Shaders/Simple_Shader.h"
 	"../Texture/Texture.h"
+	"../Temp/Quad.h"
 
 1484751445 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1485183912 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
+1485353119 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
 	"Playing.h"
 	<iostream>
+	<SFML/System/Clock.hpp>
+	"../Renderer/Master.h"
 
 1484751873 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
 	"Display.h"
@@ -435,13 +438,14 @@
 1485338431 source:c:\users\markus\documents\dev\cpp\clonecraft\source\model.cpp
 	"Model.h"
 
-1485269749 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.cpp
+1485351328 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.cpp
 	"Shader_Program.h"
 	"Shader_Loader.h"
 
-1485269689 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.h
+1485351249 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.h
 	<GL/glew.h>
 	<string>
+	"../Glm_Common.h"
 
 1484917189 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_loader.cpp
 	"Shader_Loader.h"
@@ -453,10 +457,10 @@
 	<GL/glew.h>
 	<string>
 
-1485269776 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.h
+1485351435 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.h
 	"Shader_Program.h"
 
-1485269850 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.cpp
+1485351747 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.cpp
 	"Simple_Shader.h"
 
 1485095269 c:\users\markus\documents\dev\cpp\clonecraft\source\texture\texture.h
@@ -467,11 +471,33 @@
 	"Texture.h"
 	<SFML/Graphics.hpp>
 
-1485338752 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\master.h
+1485350287 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\master.h
 	"Simple.h"
 
-1485337603 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.h
+1485350561 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.h
 	<vector>
 	<SFML/System/Clock.hpp>
 	"../Shaders/Simple_Shader.h"
+
+1485350337 c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.h
+	"../Entity.h"
+	"../Model.h"
+
+1485349685 c:\users\markus\documents\dev\cpp\clonecraft\source\entity.h
+	"Glm_Common.h"
+
+1485349640 c:\users\markus\documents\dev\cpp\clonecraft\source\glm_common.h
+	<glm/glm.hpp>
+
+1485350298 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\master.cpp
+	"Master.h"
+	"../Display.h"
+
+1485350384 source:c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.cpp
+	"Quad.h"
+	<vector>
+
+1485351790 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.cpp
+	"Simple.h"
+	"../Temp/Quad.h"
 
