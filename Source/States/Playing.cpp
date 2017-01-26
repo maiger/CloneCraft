@@ -17,7 +17,7 @@ namespace State
         m_texture.load("grass");
         m_texture.bind();
 
-        m_quad.position.z = -3;
+        m_quad.position.z -= 2;
     }
 
     void Playing::input(Camera& camera)

@@ -2,7 +2,7 @@
 1484750241 source:c:\users\markus\documents\dev\cpp\clonecraft\main.cpp
 	"Source/Display.h"
 
-1485433167 source:c:\users\markus\documents\dev\cpp\clonecraft\source\display.cpp
+1485443041 source:c:\users\markus\documents\dev\cpp\clonecraft\source\display.cpp
 	"Display.h"
 	<memory>
 	<SFML/Graphics.hpp>
@@ -499,7 +499,7 @@
 	"Master.h"
 	"../Display.h"
 
-1485424862 source:c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.cpp
+1485443179 source:c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.cpp
 	"Quad.h"
 	<vector>
 
