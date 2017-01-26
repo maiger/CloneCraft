@@ -3,9 +3,11 @@
 #include "../Entity.h"
 #include "../Display.h"
 
+#include "../Camera.h"
+
 namespace Maths
 {
-    Matrix4 createViewMatrix(const Entity& entity)
+    Matrix4 createViewMatrix(const Camera& entity)
     {
         Matrix4 matrix;
 

@@ -21,6 +21,8 @@ namespace Display
                                                     settings);
         glewInit();
         glViewport(0,0,WIDTH, HEIGHT);
+
+        window->setMouseCursorVisible(false);
     }
 
     void close()
@@ -44,7 +46,7 @@ namespace Display
         sf::Event e;
         while(window->pollEvent(e))
         {
-            if(e.type == sf::Event::Closed)
+            if(e.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
             {
                 close();
             }
@@ -55,5 +57,10 @@ namespace Display
     {
 
         return window->isOpen();
+    }
+
+    const sf::Window& get()
+    {
+        return *window;
     }
 }

@@ -8,7 +8,7 @@
 	<SFML/Graphics.hpp>
 	<GL/glew.h>
 
-1485433180 c:\users\markus\documents\dev\cpp\clonecraft\source\display.h
+1485441902 c:\users\markus\documents\dev\cpp\clonecraft\source\display.h
 
 1470642834 c:\users\markus\documents\programminglibraries\cpp\sfml-2.4.1\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -398,21 +398,22 @@
 	<string>
 	<vector>
 
-1485435936 source:c:\users\markus\documents\dev\cpp\clonecraft\source\application.cpp
+1485440195 source:c:\users\markus\documents\dev\cpp\clonecraft\source\application.cpp
 	"Application.h"
 	"Display.h"
 	"States/Playing.h"
 
-1485435756 c:\users\markus\documents\dev\cpp\clonecraft\source\application.h
+1485439052 c:\users\markus\documents\dev\cpp\clonecraft\source\application.h
 	<stack>
 	<memory>
 	"States/Game_State.h"
 	"Renderer/Master.h"
 	"Entity.h"
+	"Camera.h"
 
-1485435865 c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.h
+1485440138 c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.h
 
-1485438524 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
+1485440165 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
 	"Game_State.h"
 	"../Model.h"
 	"../Shaders/Simple_Shader.h"
@@ -422,11 +423,12 @@
 1484751445 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1485353119 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
+1485440253 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
 	"Playing.h"
 	<iostream>
 	<SFML/System/Clock.hpp>
 	"../Renderer/Master.h"
+	"../Camera.h"
 
 1484751873 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
 	"Display.h"
@@ -473,10 +475,10 @@
 	"Texture.h"
 	<SFML/Graphics.hpp>
 
-1485435713 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\master.h
+1485439071 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\master.h
 	"Simple.h"
 
-1485438379 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.h
+1485439107 c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.h
 	<vector>
 	<SFML/System/Clock.hpp>
 	"../Shaders/Simple_Shader.h"
@@ -493,7 +495,7 @@
 	<glm/gtc/matrix_transform.hpp>
 	<glm/gtc/type_ptr.hpp>
 
-1485435678 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\master.cpp
+1485439088 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\master.cpp
 	"Master.h"
 	"../Display.h"
 
@@ -501,16 +503,27 @@
 	"Quad.h"
 	<vector>
 
-1485435622 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.cpp
+1485439151 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.cpp
 	"Simple.h"
 	"../Temp/Quad.h"
 	"../Maths/Matrix.h"
 
-1485436870 source:c:\users\markus\documents\dev\cpp\clonecraft\source\maths\matrix.cpp
+1485439236 source:c:\users\markus\documents\dev\cpp\clonecraft\source\maths\matrix.cpp
 	"Matrix.h"
 	"../Entity.h"
 	"../Display.h"
+	"../Camera.h"
 
-1485436161 c:\users\markus\documents\dev\cpp\clonecraft\source\maths\matrix.h
+1485439192 c:\users\markus\documents\dev\cpp\clonecraft\source\maths\matrix.h
 	"../Glm_Common.h"
+
+1485440649 c:\users\markus\documents\dev\cpp\clonecraft\source\camera.h
+	"Entity.h"
+
+1485441947 source:c:\users\markus\documents\dev\cpp\clonecraft\source\camera.cpp
+	"Camera.h"
+	<cmath>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	"Display.h"
 
