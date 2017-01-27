@@ -55,6 +55,8 @@
 			<Add directory="C:/Users/Markus/Documents/ProgrammingLibraries/CPP/SFML-2.4.1/lib" />
 			<Add directory="C:/Users/Markus/Documents/ProgrammingLibraries/CPP/glew-2.0.0/lib/Release/Win32" />
 		</Linker>
+		<Unit filename="Data/Blocks/Air.block" />
+		<Unit filename="Data/Blocks/Grass.block" />
 		<Unit filename="Data/Shaders/Simple_Fragment.glsl" />
 		<Unit filename="Data/Shaders/Simple_Vertex.glsl" />
 		<Unit filename="Source/Application.cpp" />
@@ -87,6 +89,19 @@
 		<Unit filename="Source/Temp/Quad.h" />
 		<Unit filename="Source/Texture/Texture.cpp" />
 		<Unit filename="Source/Texture/Texture.h" />
+		<Unit filename="Source/Texture/Texture_Atlas.cpp" />
+		<Unit filename="Source/Texture/Texture_Atlas.h" />
+		<Unit filename="Source/World/Block/Block_Data.cpp" />
+		<Unit filename="Source/World/Block/Block_Data.h" />
+		<Unit filename="Source/World/Block/Block_Database.cpp" />
+		<Unit filename="Source/World/Block/Block_Database.h" />
+		<Unit filename="Source/World/Block/Block_ID.h" />
+		<Unit filename="Source/World/Block/Block_Types/Air.cpp" />
+		<Unit filename="Source/World/Block/Block_Types/Air.h" />
+		<Unit filename="Source/World/Block/Block_Types/Block_Type.cpp" />
+		<Unit filename="Source/World/Block/Block_Types/Block_Type.h" />
+		<Unit filename="Source/World/Block/Block_Types/Grass.cpp" />
+		<Unit filename="Source/World/Block/Block_Types/Grass.h" />
 		<Unit filename="Source/main.cpp" />
 		<Unit filename="glew32.dll" />
 		<Unit filename="openal32.dll" />
