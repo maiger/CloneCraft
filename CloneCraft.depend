@@ -413,17 +413,17 @@
 
 1485440138 c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.h
 
-1485440165 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
+1485515870 c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.h
 	"Game_State.h"
 	"../Model.h"
 	"../Shaders/Simple_Shader.h"
-	"../Texture/Texture.h"
+	"../Texture/Texture_Atlas.h"
 	"../Temp/Quad.h"
 
 1484751445 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\game_state.cpp
 	"Game_State.h"
 
-1485440253 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
+1485515969 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\playing.cpp
 	"Playing.h"
 	<iostream>
 	<SFML/System/Clock.hpp>
@@ -434,11 +434,11 @@
 	"Display.h"
 	"Application.h"
 
-1485338413 c:\users\markus\documents\dev\cpp\clonecraft\source\model.h
+1485516011 c:\users\markus\documents\dev\cpp\clonecraft\source\model.h
 	<GL/glew.h>
 	<vector>
 
-1485424906 source:c:\users\markus\documents\dev\cpp\clonecraft\source\model.cpp
+1485515310 source:c:\users\markus\documents\dev\cpp\clonecraft\source\model.cpp
 	"Model.h"
 
 1485427820 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\shader_program.cpp
@@ -483,7 +483,7 @@
 	<SFML/System/Clock.hpp>
 	"../Shaders/Simple_Shader.h"
 
-1485350337 c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.h
+1485516787 c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.h
 	"../Entity.h"
 	"../Model.h"
 
@@ -499,9 +499,10 @@
 	"Master.h"
 	"../Display.h"
 
-1485443179 source:c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.cpp
+1485517084 source:c:\users\markus\documents\dev\cpp\clonecraft\source\temp\quad.cpp
 	"Quad.h"
 	<vector>
+	"../Texture/Texture_Atlas.h"
 
 1485439151 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\simple.cpp
 	"Simple.h"
@@ -526,4 +527,12 @@
 	<SFML/Window/Keyboard.hpp>
 	<SFML/Window/Mouse.hpp>
 	"Display.h"
+
+1485514624 c:\users\markus\documents\dev\cpp\clonecraft\source\texture\texture_atlas.h
+	"Texture.h"
+	<vector>
+	"../Glm_Common.h"
+
+1485517120 source:c:\users\markus\documents\dev\cpp\clonecraft\source\texture\texture_atlas.cpp
+	"Texture_Atlas.h"
 

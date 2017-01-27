@@ -13,8 +13,9 @@ namespace State
 
     Playing::Playing(Application& application)
     : Game_State    (application)
+    , m_texture     ("Texture_Atlas", 512, 16)
+    , m_quad        (m_texture)
     {
-        m_texture.load("grass");
         m_texture.bind();
 
         m_quad.position.z -= 2;
