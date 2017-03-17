@@ -1,9 +1,9 @@
-#include "Playing.h"
+#include "SPlaying.h"
 
 #include <iostream>
 #include <SFML/System/Clock.hpp>
 
-#include "../Renderer/Master.h"
+#include "../Renderer/RMaster.h"
 
 #include "../Camera.h"
 
