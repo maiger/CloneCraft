@@ -398,16 +398,16 @@
 	<string>
 	<vector>
 
-1485440195 source:c:\users\markus\documents\dev\cpp\clonecraft\source\application.cpp
+1489838913 source:c:\users\markus\documents\dev\cpp\clonecraft\source\application.cpp
 	"Application.h"
 	"Display.h"
-	"States/Playing.h"
+	"States/SPlaying.h"
 
-1485439052 c:\users\markus\documents\dev\cpp\clonecraft\source\application.h
+1489838906 c:\users\markus\documents\dev\cpp\clonecraft\source\application.h
 	<stack>
 	<memory>
 	"States/Game_State.h"
-	"Renderer/Master.h"
+	"Renderer/RMaster.h"
 	"Entity.h"
 	"Camera.h"
 
@@ -430,9 +430,11 @@
 	"../Renderer/Master.h"
 	"../Camera.h"
 
-1484751873 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
+1489838938 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
 	"Display.h"
 	"Application.h"
+	"Util/Random.h"
+	<iostream>
 
 1485516011 c:\users\markus\documents\dev\cpp\clonecraft\source\model.h
 	<GL/glew.h>
@@ -566,15 +568,15 @@
 	"Block_Data.h"
 	<fstream>
 
-1485523170 source:c:\users\markus\documents\dev\cpp\clonecraft\source\world\block\block_database.cpp
+1489758243 source:c:\users\markus\documents\dev\cpp\clonecraft\source\world\block\block_database.cpp
 	"Block_Database.h"
-	<memory>
-	<vector>
-	"Block_Types/Air.h"
-	"Block_Types/Grass.h"
+	"Block_Types/BAir.h"
+	"Block_Types/BGrass.h"
 	"Block_ID.h"
 
-1485523068 c:\users\markus\documents\dev\cpp\clonecraft\source\world\block\block_database.h
+1489758192 c:\users\markus\documents\dev\cpp\clonecraft\source\world\block\block_database.h
+	<memory>
+	<vector>
 	"Block_Types/Block_Type.h"
 	"Block_ID.h"
 
@@ -629,4 +631,13 @@
 
 1485522884 c:\users\markus\documents\dev\cpp\clonecraft\source\world\block\block_types\bgrass.h
 	"Block_Type.h"
+
+1489839412 c:\users\markus\documents\dev\cpp\clonecraft\source\util\random.h
+	<random>
+	<cstdint>
+	<ctime>
+
+1489839030 source:c:\users\markus\documents\dev\cpp\clonecraft\source\util\random.cpp
+	"Random.h"
+	<ctime>
 
