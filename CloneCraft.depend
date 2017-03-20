@@ -398,7 +398,7 @@
 	<string>
 	<vector>
 
-1489838913 source:c:\users\markus\documents\dev\cpp\clonecraft\source\application.cpp
+1490025145 source:c:\users\markus\documents\dev\cpp\clonecraft\source\application.cpp
 	"Application.h"
 	"Display.h"
 	"States/SPlaying.h"
@@ -430,7 +430,7 @@
 	"../Renderer/Master.h"
 	"../Camera.h"
 
-1489838938 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
+1490025202 source:c:\users\markus\documents\dev\cpp\clonecraft\source\main.cpp
 	"Display.h"
 	"Application.h"
 	"Util/Random.h"
@@ -465,9 +465,9 @@
 1485436132 c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.h
 	"Shader_Program.h"
 
-1485436594 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.cpp
+1490025178 source:c:\users\markus\documents\dev\cpp\clonecraft\source\shaders\simple_shader.cpp
 	"Simple_Shader.h"
-	"../Maths/Matrix.h"
+	"../Maths/Matrix_Maths.h"
 
 1485095269 c:\users\markus\documents\dev\cpp\clonecraft\source\texture\texture.h
 	<GL/glew.h>
@@ -520,15 +520,17 @@
 1485439192 c:\users\markus\documents\dev\cpp\clonecraft\source\maths\matrix.h
 	"../Glm_Common.h"
 
-1485440649 c:\users\markus\documents\dev\cpp\clonecraft\source\camera.h
+1490024634 c:\users\markus\documents\dev\cpp\clonecraft\source\camera.h
+	"Glm_Common.h"
 	"Entity.h"
 
-1489757708 source:c:\users\markus\documents\dev\cpp\clonecraft\source\camera.cpp
+1490025034 source:c:\users\markus\documents\dev\cpp\clonecraft\source\camera.cpp
 	"Camera.h"
 	<cmath>
 	<SFML/Window/Keyboard.hpp>
 	<SFML/Window/Mouse.hpp>
 	"Display.h"
+	"Maths/Matrix_Maths.h"
 
 1485514624 c:\users\markus\documents\dev\cpp\clonecraft\source\texture\texture_atlas.h
 	"Texture.h"
@@ -601,10 +603,11 @@
 	<SFML/System/Clock.hpp>
 	"../Shaders/Simple_Shader.h"
 
-1489757573 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\rsimple.cpp
+1490025095 source:c:\users\markus\documents\dev\cpp\clonecraft\source\renderer\rsimple.cpp
 	"RSimple.h"
 	"../Temp/Quad.h"
 	"../Maths/Matrix_Maths.h"
+	"../Camera.h"
 
 1489757591 source:c:\users\markus\documents\dev\cpp\clonecraft\source\states\splaying.cpp
 	"SPlaying.h"

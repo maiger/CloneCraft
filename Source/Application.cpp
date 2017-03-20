@@ -21,6 +21,8 @@ void Application::runMainGameLoop()
 
         // Do stuff with states
         m_states.top()->input   (camera);
+
+        camera.update();
         m_states.top()->update  (camera, dt);
         m_states.top()->draw    (m_renderer);
 
